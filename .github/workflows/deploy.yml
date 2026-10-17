@@ -26,4 +26,4 @@ jobs:
         run: railway --version
 
       - name: Deploy
-        run: railway up --project 020103ea-199a-465c-9321-08d34d4c31dd --service 627f06ae-4288-4dc4-93f3-f9c2a42f8f72
+        run: railway up --project 020103ea-199a-465c-9321-08d34d4c31dd --environment production --service 627f06ae-4288-4dc4-93f3-f9c2a42f8f72
